@@ -1,0 +1,145 @@
+.bod{background: linear-gradient(black,black);}
+nav {
+   
+    background-color: orange;
+    border: 1px solid rgb(68, 2, 2);
+    height: 80px;
+    margin-top: -8px;
+    width: 100%;
+    box-shadow: 1px 3px 12px  rgb(77, 76, 76);
+    
+}
+.nli {
+    list-style-type: none;
+    display: inline;
+    margin-left:130px ;
+    font-size: 20px;
+    
+    position: relative;
+    top: 10px;
+
+    cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.nli:hover{
+border-bottom: 2px solid rgb(13, 10, 10);
+
+ cursor: pointer;
+
+}
+a{
+    text-decoration: none;color: black;
+}
+.nli img{
+    position: absolute;
+    left: -120px;
+    width: 110px;
+    top: -40px;
+
+}
+
+
+div ul li span img{
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    display: inline;
+    border:2px black solid ;
+    box-shadow: 1px 3px 12px rgb(42, 41, 41);
+}
+div ul li:hover span img{box-shadow: 1px 3px 12px orange;}
+div ul li {
+    list-style-type: none;
+    display: inline;
+    
+    margin-left: 100px;
+   
+    margin-top:300px;
+    
+   
+}
+div ul {
+    margin-left: 0;
+}
+
+.nas{
+display: inline; position: absolute;
+width: 254px;
+transition: height 2s ease;
+height:30px;
+
+margin-left: -256px;
+background-color: rgba(12, 7, 2, 0.866);
+font-size: 25px;
+color: aliceblue;
+overflow: hidden;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+div ul li:hover .nas{display: inline; position: absolute;
+    width: 254px;
+    transition: height 1s ease;
+    height: 300px;
+   
+    margin-left: -256px;
+    background-color: rgba(8, 7, 7, 0.866);
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    
+    }
+.info{
+    margin-top: 50px;
+    position: relative;
+    font-size: 20px;
+    color: rgb(253, 181, 74);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.nli span{
+    width: 80px;
+    height: 60px;
+   
+    top: -20px;
+    position: absolute;
+}
+#no{
+    width: 72px;
+    height: 50px;
+    background-image: url('../img/N.png');
+    top: -20px;
+    position: absolute;
+}
+#yes{
+    width: 72px;
+    height: 50px;
+    background-image: url('../img/L.png');
+    top: -20px;
+    position: absolute; 
+}
+
+
+@keyframes ind {
+    from{
+        height: 30;
+    
+    }
+    
+    to{
+        height:300px ;
+    }}
+
+    @keyframes indii {
+        from{
+            height: 300px;
+        
+        }
+        
+        to{
+            height:30px ;
+        }}

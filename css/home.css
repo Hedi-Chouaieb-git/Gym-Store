@@ -1,0 +1,108 @@
+body{
+    background-size: cover;
+}
+.bag{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+nav {
+   
+   background-color: orange;
+    height: 100px;
+  margin-top: -18px;
+    width: 100%;
+    top:0;
+    position: absolute;
+    right: 0;
+    left: 0;
+  
+    
+}
+li{
+    list-style:none ;
+}
+.nli,.df {
+    list-style-type: none;
+    display: inline;
+    margin-left:80px ;
+    font-size: 20px;
+    
+    position: relative;
+    top: 30px;
+
+    cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.nli a:hover{
+
+
+ color: rgb(252, 252, 252);
+
+}
+.df{
+    padding-right:50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nli img{
+    position: absolute;
+    left: -100px;
+    width: 110px;
+    
+    top: -45px;
+
+}
+.btns{
+    margin-top:15%;
+    text-align: center;
+}
+.ti{
+    margin-top:10%;
+    text-align: center;
+    padding-left: 50px;
+}
+.tit{
+    
+   
+    color: rgba(245, 242, 242, 0.904);
+    display: inline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 55px;
+   
+ 
+   
+}
+.s a,.l a{
+    color: rgba(245, 242, 242, 0.904);
+    display: inline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-size: 25px;
+    margin: 50px;
+    transition: background-color 1s;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    border: 1px solid rgb(255, 255, 255) ;
+    border-radius: 50px;
+}
+.btt a:hover{
+    background-color:orange;
+    transition: background-color 1s;
+}
+div ul li {
+    display: inline;
+    
+    
+}

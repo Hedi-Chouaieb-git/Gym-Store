@@ -1,0 +1,69 @@
+body{
+    background-color: orange;
+}
+.img-crd{
+    width: 0px;
+    height: 200px;
+    border-radius:20px ;
+    border: 1px yellow solid;
+    transition: 1s width;
+}
+.card:hover .img-crd{
+    transition: 1s width;
+    width: 170px;
+    height: 200px;
+    border-radius:20px ;
+    border: 1px yellow solid;
+}
+.card{
+    text-align: center;
+    margin-left: 40%;
+    text-align: center;
+    width: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-radius: 40px;
+    display: inline-block;
+    transition: box-shadow 2s;
+    background-color: rgb(44, 44, 44);
+    
+    
+}
+.card:hover{
+   transition: box-shadow 1s;
+    box-shadow: 1px 9px 20px rgb(250, 250, 246);
+  
+  
+    cursor: pointer;
+    background-color: black;
+
+}
+.info{
+    color: rgb(243, 243, 243);
+    font-family: fantasy;
+    font-size: 20px;
+    
+    
+}
+.inf{
+    color: rgb(2, 1, 1);
+    font-family: fantasy;
+    font-size: 20px;
+}
+.nli{
+left: 40%;
+}
+.dev{
+    margin-left: 40%;
+    position: relative;
+
+   
+}
+.dev-img-crd{
+    width: 170px;
+    height: 200px;
+    border-radius:20px;
+    transition: 0.5s width;
+}
+

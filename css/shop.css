@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(31, 28, 28);
+}
+nav {
+   
+    background-color: orange;
+    border: 1px solid rgb(68, 2, 2);
+    height: 80px;
+    margin-top: -8px;
+    width: 100%;
+    box-shadow: 1px 3px 12px  rgb(77, 76, 76);
+    
+}
+.nli {
+    list-style-type: none;
+    display: inline;
+    margin-left:130px ;
+    font-size: 20px;
+    
+    position: relative;
+    top: 10px;
+
+    cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.nli:hover{
+border-bottom: 2px solid rgb(13, 10, 10);
+
+ cursor: pointer;
+
+}
+a{
+    text-decoration: none;color: black;
+}
+.nli img{
+    position: absolute;
+    left: -120px;
+    width: 110px;
+    top: -40px;
+
+}
+li{
+    list-style-type: none;
+}
+/* for produit */
+
+.img-crd{
+    width: 200px;
+    height: 250px;
+    border-radius:20px ;
+    border: 2px yellow solid;
+
+}
+.card{
+    text-align: center;
+    background-color: black;
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-radius: 40px;
+    display: inline-block;
+    transition: box-shadow 2s;
+    
+    
+}
+.card:hover{
+   transition: box-shadow 1s;
+    box-shadow: 1px 2px 20px orange;
+}
+.info{
+    color: rgb(243, 243, 243);
+    font-family: fantasy;
+    
+}
+
+/* ll7aje elli ta7t lcard mn louta  */
+
+.P-B{
+    color: black;
+    font-size: 20px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 40px;
+    border: 2px orange solid;
+    color: orange;
+    background-color: transparent;
+    transition: background-color 1s;
+
+}
+.P-B:hover{
+    color: black;
+    background-color: orange;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+.nprix{
+
+    width: 50px;
+    height: 30px;
+    color: orange;
+    background-color: transparent;
+    border: 3px orange solid;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.Prc{ 
+    width: 50px;
+    height: 30px;
+    font-size: large;
+    background:transparent;
+    border: none;
+    margin-left: 20px;
+}
